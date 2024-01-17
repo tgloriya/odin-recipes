@@ -1,12 +1,29 @@
 * {
     background-color: #e5c5bd;
     font-family: 'Times New Roman', Times, serif;
-    margin-left: 50px;
-    margin-right: 50px;
     text-align: justify;
+    margin-left: auto;
+    margin-right: auto;
+    width: 80%;
 }
 
 h1 {
     text-align: center;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+img {
+    width: 380px;
+    height: auto;
+}
+
+.center,
+.main {
+    margin: 0 auto;
+    display: block;
+}
+
+.main {
+    width: auto;
+    height: 280px;
 }
