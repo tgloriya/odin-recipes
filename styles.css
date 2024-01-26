@@ -1,5 +1,5 @@
 * {
-    background-color: #e5c5bd;
+    background-color: #e8d8c4;
     font-family: 'Times New Roman', Times, serif;
     text-align: justify;
     margin-left: auto;
@@ -15,6 +15,7 @@ h1 {
 img {
     width: 380px;
     height: auto;
+    max-width: 70%;
 }
 
 .center,
@@ -24,6 +25,37 @@ img {
 }
 
 .main {
-    width: auto;
-    height: 280px;
+    width: 600px;
+    height: auto;
+    border: 2px solid black;
+}
+
+.center {
+    border-radius: 20px;
+}
+
+.page {
+    display: block;
+    text-align: center;
+    font-family: Calibri, 'sans serif';
+    font-size: large;
+    text-decoration: none;
+    color: white;
+    border: 3px solid #561c24;
+    padding: 10px;
+    border-radius: 15px;
+    margin: 10px;
+    background-color: rgba(109, 41, 50, 0.5);
+}
+
+a:hover {
+    text-decoration: none;
+    padding: 18px;
+}
+
+.description {
+    border: 3px solid #561c24;
+    padding: 25px;
+    border-radius: 25px;
+
 }
